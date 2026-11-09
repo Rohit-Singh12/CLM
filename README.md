@@ -53,6 +53,9 @@ python scripts/demo.py --checkpoint checkpoints/proj_heads_latest.pt --proj-dim 
 
 `--proj-dim` must match the value used at training time.
 
+## Details
+https://medium.com/@srrohit982/beyond-fine-tuning-building-high-performance-state-action-embeddings-with-a-frozen-llm-backbone-6d577ab6c735
+
 ## Notes
 
 - Padding and truncation are on the **left** since the last-token hidden state is used.
